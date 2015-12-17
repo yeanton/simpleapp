@@ -7,6 +7,10 @@ gem 'rails', '4.2.5'
 group :development do
   gem 'sqlite3'
 end
+group :production do
+  gem 'pg', '0.18.4'
+  gem 'rails_12factor', '0.0.3'
+end
 gem 'sass-rails', '5.0.4'
 gem 'uglifier', '2.7.2'
 gem 'coffee-rails', '4.1.0'
